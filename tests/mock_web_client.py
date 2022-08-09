@@ -5,6 +5,7 @@ from stweet import WebClient
 from stweet.http_request import RequestDetails, RequestResponse
 
 
+
 class MockWebClient(st.WebClient):
     responses: Optional[Dict[str, RequestResponse]]
     default_response: Optional[RequestResponse]
